@@ -11,6 +11,7 @@ workflows:
       # More info: https://game.ci/docs/circleci/activation#personal-license
       - unity/create-activation-file:
           name: "create-activation-file"
+          context: cpe-unity
 
       # Run tests in playmode for Linux, Windows and macOS
       # More info: https://game.ci/docs/circleci/test
